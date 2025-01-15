@@ -17,7 +17,7 @@ public class Tarakan implements Runnable {
     public void run() {
         Random random = new Random();
         while (remainingDistance > 0) {
-            System.out.println("Tarakan #" + number + ": distance of " + remainingDistance + " remains");
+            System.out.println("Tarakan #" + number + ": " + remainingDistance + " units remains");
             try {
                 int delay = random.nextInt(4) + 2;
                 //System.out.println("#"+number+": "+delay);
