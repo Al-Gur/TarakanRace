@@ -20,7 +20,7 @@ public class Tarakan implements Runnable {
             System.out.println("Tarakan #" + number + ": distance of " + remainingDistance + " remains");
             try {
                 int delay = random.nextInt(4) + 2;
-                System.out.println("#"+number+": "+delay);
+                //System.out.println("#"+number+": "+delay);
                 Thread.sleep(delay);
             } catch (InterruptedException e) {
                 e.printStackTrace();
